@@ -5,19 +5,24 @@
     <meta charset="utf-8">
     <title>2 Task</title>
   </head>
-  <body onload="myFunction()">
+  <body onload="warning()">
 <p class="whiteText">Well you made it this far I guess that means you want to continue.</p>
 
-<p><button type="button" name="">Click If you Dare!</button></p>
+<p><button type="button" onclick="document.getElementById('test').innerHTML = 'Click If you Dare!'">Click If you Dare!</button></p>
+
+<p id="test" class="whiteText">Hello</p>
 
 
 
 
-
-<!-- <script>
-function myFunction() {
+<script>
+function warning() {
     alert("Last chance to leave!");
 }
-</script> -->
+
+function showText(){
+
+}
+</script>
   </body>
 </html>
