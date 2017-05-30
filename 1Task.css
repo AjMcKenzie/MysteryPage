@@ -1,6 +1,14 @@
+
 body{
   background-color: rgb(0, 0, 0);
 }
 .whiteText{
   color: rgb(255, 255, 255);
+}
+.blackText{
+  color: rgb(0, 0, 0);
+}
+.padding1{
+  padding-top: 300px;
+  padding-left: 700px;
 }
